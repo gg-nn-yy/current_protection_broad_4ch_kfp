@@ -1,0 +1,163 @@
+;#<FEEDBACK># ARM Linker, 5060960: Last Updated: Wed Jun 12 11:57:16 2024
+;VERSION 0.2
+;FILE ads1118_driver.o
+__asm___16_ads1118_driver_c_69befbb0____REV16 <= USED 0
+__asm___16_ads1118_driver_c_69befbb0____REVSH <= USED 0
+;FILE delay.o
+__asm___7_delay_c_bfe1eac8____REV16 <= USED 0
+__asm___7_delay_c_bfe1eac8____REVSH <= USED 0
+vDelayNms <= USED 0
+;FILE filter_middleware.o
+__asm___19_filter_middleware_c_53c5f073____REV16 <= USED 0
+__asm___19_filter_middleware_c_53c5f073____REVSH <= USED 0
+;FILE led_driver.o
+__asm___12_led_driver_c_dec6d7a5____REV16 <= USED 0
+__asm___12_led_driver_c_dec6d7a5____REVSH <= USED 0
+vLed_TurnOff <= USED 0
+vLed_TurnOn <= USED 0
+;FILE main.o
+__asm___6_main_c_main____REV16 <= USED 0
+__asm___6_main_c_main____REVSH <= USED 0
+;FILE rs485_driver.o
+__asm___14_rs485_driver_c_fputc____REV16 <= USED 0
+__asm___14_rs485_driver_c_fputc____REVSH <= USED 0
+vRs485_TestTask <= USED 0
+;FILE startup_stm32f0xx.o
+;FILE stm32f0xx_gpio.o
+GPIO_DeInit <= USED 0
+GPIO_PinLockConfig <= USED 0
+GPIO_ReadInputData <= USED 0
+GPIO_ReadInputDataBit <= USED 0
+GPIO_ReadOutputData <= USED 0
+GPIO_ResetBits <= USED 0
+GPIO_StructInit <= USED 0
+GPIO_Write <= USED 0
+__asm___16_stm32f0xx_gpio_c_f8e8e39a____REV16 <= USED 0
+__asm___16_stm32f0xx_gpio_c_f8e8e39a____REVSH <= USED 0
+;FILE stm32f0xx_it.o
+__asm___14_stm32f0xx_it_c_bb8ca80c____REV16 <= USED 0
+__asm___14_stm32f0xx_it_c_bb8ca80c____REVSH <= USED 0
+;FILE stm32f0xx_rcc.o
+RCC_ADCCLKConfig <= USED 0
+RCC_AHBPeriphResetCmd <= USED 0
+RCC_APB1PeriphClockCmd <= USED 0
+RCC_APB1PeriphResetCmd <= USED 0
+RCC_APB2PeriphResetCmd <= USED 0
+RCC_AdjustHSI14CalibrationValue <= USED 0
+RCC_AdjustHSICalibrationValue <= USED 0
+RCC_BackupResetCmd <= USED 0
+RCC_CECCLKConfig <= USED 0
+RCC_ClearFlag <= USED 0
+RCC_ClearITPendingBit <= USED 0
+RCC_ClockSecuritySystemCmd <= USED 0
+RCC_DeInit <= USED 0
+RCC_GetFlagStatus <= USED 0
+RCC_GetITStatus <= USED 0
+RCC_GetSYSCLKSource <= USED 0
+RCC_HCLKConfig <= USED 0
+RCC_HSEConfig <= USED 0
+RCC_HSI14ADCRequestCmd <= USED 0
+RCC_HSI14Cmd <= USED 0
+RCC_HSI48Cmd <= USED 0
+RCC_HSICmd <= USED 0
+RCC_I2CCLKConfig <= USED 0
+RCC_ITConfig <= USED 0
+RCC_LSEConfig <= USED 0
+RCC_LSEDriveConfig <= USED 0
+RCC_LSICmd <= USED 0
+RCC_MCOConfig <= USED 0
+RCC_PCLKConfig <= USED 0
+RCC_PLLCmd <= USED 0
+RCC_PLLConfig <= USED 0
+RCC_PREDIV1Config <= USED 0
+RCC_RTCCLKCmd <= USED 0
+RCC_RTCCLKConfig <= USED 0
+RCC_SYSCLKConfig <= USED 0
+RCC_USARTCLKConfig <= USED 0
+RCC_USBCLKConfig <= USED 0
+RCC_WaitForHSEStartUp <= USED 0
+__asm___15_stm32f0xx_rcc_c_49e27980____REV16 <= USED 0
+__asm___15_stm32f0xx_rcc_c_49e27980____REVSH <= USED 0
+;FILE stm32f0xx_spi.o
+I2S_Cmd <= USED 0
+I2S_Init <= USED 0
+I2S_StructInit <= USED 0
+SPI_BiDirectionalLineConfig <= USED 0
+SPI_CRCLengthConfig <= USED 0
+SPI_CalculateCRC <= USED 0
+SPI_DataSizeConfig <= USED 0
+SPI_GetCRC <= USED 0
+SPI_GetCRCPolynomial <= USED 0
+SPI_GetReceptionFIFOStatus <= USED 0
+SPI_GetTransmissionFIFOStatus <= USED 0
+SPI_I2S_ClearFlag <= USED 0
+SPI_I2S_DMACmd <= USED 0
+SPI_I2S_DeInit <= USED 0
+SPI_I2S_GetITStatus <= USED 0
+SPI_I2S_ITConfig <= USED 0
+SPI_LastDMATransferCmd <= USED 0
+SPI_NSSInternalSoftwareConfig <= USED 0
+SPI_NSSPulseModeCmd <= USED 0
+SPI_ReceiveData8 <= USED 0
+SPI_SSOutputCmd <= USED 0
+SPI_SendData8 <= USED 0
+SPI_StructInit <= USED 0
+SPI_TIModeCmd <= USED 0
+SPI_TransmitCRC <= USED 0
+__asm___15_stm32f0xx_spi_c_2b928927____REV16 <= USED 0
+__asm___15_stm32f0xx_spi_c_2b928927____REVSH <= USED 0
+;FILE stm32f0xx_usart.o
+USART_AddressDetectionConfig <= USED 0
+USART_AutoBaudRateCmd <= USED 0
+USART_AutoBaudRateConfig <= USED 0
+USART_ClearFlag <= USED 0
+USART_ClearITPendingBit <= USED 0
+USART_ClockInit <= USED 0
+USART_ClockStructInit <= USED 0
+USART_DECmd <= USED 0
+USART_DEPolarityConfig <= USED 0
+USART_DMACmd <= USED 0
+USART_DMAReceptionErrorConfig <= USED 0
+USART_DataInvCmd <= USED 0
+USART_DeInit <= USED 0
+USART_DirectionModeCmd <= USED 0
+USART_GetITStatus <= USED 0
+USART_HalfDuplexCmd <= USED 0
+USART_ITConfig <= USED 0
+USART_InvPinCmd <= USED 0
+USART_IrDACmd <= USED 0
+USART_IrDAConfig <= USED 0
+USART_LINBreakDetectLengthConfig <= USED 0
+USART_LINCmd <= USED 0
+USART_MSBFirstCmd <= USED 0
+USART_MuteModeCmd <= USED 0
+USART_MuteModeWakeUpConfig <= USED 0
+USART_OneBitMethodCmd <= USED 0
+USART_OverSampling8Cmd <= USED 0
+USART_OverrunDetectionConfig <= USED 0
+USART_ReceiveData <= USED 0
+USART_ReceiverTimeOutCmd <= USED 0
+USART_RequestCmd <= USED 0
+USART_STOPModeCmd <= USED 0
+USART_SWAPPinCmd <= USED 0
+USART_SetAddress <= USED 0
+USART_SetAutoRetryCount <= USED 0
+USART_SetBlockLength <= USED 0
+USART_SetDEAssertionTime <= USED 0
+USART_SetDEDeassertionTime <= USED 0
+USART_SetGuardTime <= USED 0
+USART_SetPrescaler <= USED 0
+USART_SetReceiverTimeOut <= USED 0
+USART_SmartCardCmd <= USED 0
+USART_SmartCardNACKCmd <= USED 0
+USART_StopModeWakeUpSourceConfig <= USED 0
+USART_StructInit <= USED 0
+__asm___17_stm32f0xx_usart_c_9565154b____REV16 <= USED 0
+__asm___17_stm32f0xx_usart_c_9565154b____REVSH <= USED 0
+;FILE system_stm32f0xx.o
+SystemCoreClockUpdate <= USED 0
+__asm___18_system_stm32f0xx_c_5d646a67____REV16 <= USED 0
+__asm___18_system_stm32f0xx_c_5d646a67____REVSH <= USED 0
+;FILE systick.o
+__asm___9_systick_c_37a0023d____REV16 <= USED 0
+__asm___9_systick_c_37a0023d____REVSH <= USED 0
